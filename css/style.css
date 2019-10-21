@@ -1,0 +1,225 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#wrapper{
+	width: 90%;
+	margin: 20px auto;
+}
+
+#wrapper .title {
+	font: bold 24px Arial, Helvetica, sans-serif;
+	color: #00C;
+	text-align: center;
+}
+
+#wrapper .list {
+	margin-top: 30px;
+}
+
+#wrapper .list .row{
+	display: table;
+	width: 100%;
+	margin: 15px 0px;
+	border: 1px solid #CCC;
+	font: 13px Tahoma, Geneva, sans-serif;
+}
+
+#wrapper .list .even {
+	background-color: #f4f3f3;
+}
+
+#wrapper .list .odd {
+	background-color: #fff;
+}
+
+#wrapper .list .row .no{
+	width: 5%;
+	text-align: center;	
+}
+
+#wrapper .list .row .name{
+	padding: 10px;
+	text-align: left;
+	font-weight: bold;
+}
+
+#wrapper .list .row .name span{
+	display: block;
+	margin-top: 10px;
+	font-style: italic;
+	font-weight: normal;
+	text-align: justify;
+}
+
+#wrapper .list .row .id{
+	width: 10%;
+}
+
+#wrapper .list .row .size{
+	width: 12%;
+}
+
+#wrapper .list .row .action{
+	width: 10%;
+	border-right: none;
+}
+
+#wrapper .list .row .action a{
+	text-decoration: none;
+	color: #000;
+}
+
+#wrapper .list .row .action a:hover{
+	text-decoration: underline;
+}
+
+#wrapper .list .row > p{
+	display: table-cell;
+	vertical-align: middle;
+	border-right: 1px solid #CCC;
+	text-align: center;
+}
+
+#area-button {
+	text-align: right;
+	margin-top: 25px;
+}
+
+#area-button a {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #ad9d9d;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	margin-left: 5px;
+	background: #c9e7e3;
+}
+
+#area-button a:hover{
+	background: #a7e7df;
+}
+
+#form{
+	margin-top: 10px;
+	border: 2px solid #c9e7e3;
+	padding: 15px;
+}
+
+
+#form .row{
+	margin-bottom: 15px;
+	text-align: justify;
+}
+
+#form .row p{
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+#wrapper .row p.error{
+	font-style: italic;
+	font-weight: normal;
+	color: red;
+	font-size: 14px;
+	margin-top: 5px;
+}
+
+#form .row textarea{
+	resize:none;
+	padding: 3px;
+}
+
+#form .row select{
+	padding: 3px;
+	width: 150px;
+}
+
+#form .row input[type=text]{
+	padding: 3px;
+	width: 500px;
+}
+
+#form .row input[type=button], #form .row input[type=submit]{
+	padding: 5px 10px;
+}
+
+/* Error UL LI*/
+
+.error, .success, .notice {
+	margin: 10px 0px;
+	padding: 15px;
+	background-color: #e5b065;
+}
+
+.error > li {
+	list-style: inside;
+}
+
+.success {
+	background-color: #b3ebb3;
+}
+
+.notice{
+	background-color: #d9c8af;
+}
+
+
+
+div#pagination {
+	text-align: center;
+	margin-top: 30px;
+}
+
+
+ul.pagination {
+	list-style: none;
+	display: inline-block;
+}
+
+ul.pagination li{
+	float:left;
+	margin-right: 3px;
+	background: #8e9f98;
+	color: #fff;
+	padding: 4px 8px;
+}
+
+ul.pagination li a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	
+}
+
+ul.pagination li a:hover, ul.pagination li.active, ul.pagination li.active a{
+	color: #e2dd55;
+}
+
+
+p a.sort-by { 
+	padding-right: 18px;
+	position: relative;
+}
+a.sort-by:before,
+a.sort-by:after {
+	border: 4px solid transparent;
+	content: "";
+	display: block;
+	height: 0;
+	right: 5px;
+	top: 50%;
+	position: absolute;
+	width: 0;
+}
+a.sort-by-up:before {
+	border-bottom-color: #666;
+	margin-top: -9px;
+}
+a.sort-by-down:after {
+	border-top-color: #666;
+	margin-top: 1px;
+}
