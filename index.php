@@ -79,12 +79,104 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="filecss1.css">
+		<link rel="stylesheet" type="text/css" href="filecss2.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>PHP CRUD</title>
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script src="js/my-js.js"></script>
 </head>
 
 <body>
+   <div id="wrapper">
+
+			                         <!--================================== HEADER ==========================================-->
+
+			
+
+			<div id="header">
+			    <div class="top">
+				    <div class="logo">&nbsp;<img src="file:///C:/Users/Hao%20Phi/Desktop/logo.png">&nbsp;</div>
+				    <div> <H1>THƯ VIỆN SÁCH TRƯỜNG ĐẠI HỌC THƯƠNG MẠI </h1></div>
+				    
+				</div>
+				<div class="clr"></div>
+
+<!--================================================== MENU ========================================================-->
+			
+
+
+
+			<div class="menu">
+				<div class="right">
+					<div class="content">
+						<ul>
+							<li><a href="#">Giới thiệu thư viện</a></li>
+							  <li class="line-w-45"></li>
+							<li><a href="#">Các đầu sách</a></li>
+							   <li class="line-w-45"></li>
+							<li><a href="#">Tin tức</a></li>
+							   <li class="line-w-45"></li>
+							<li><a href="#">Tìm sách</a></li>
+							   <li class="line-w-45"></li>
+							<li class="cart">Giỏ sách của tôi <a href="#">emty</a></li>
+
+						</ul>
+
+					</div>
+
+
+				</div>
+			</div>
+			
+		   </div>
+
+<!--=============================================== SIDEBAR ===================================== -->
+
+
+
+		   <div class="main">
+		   	                      <!-- =================================================LEFT =========================================-->
+
+			   <div class="left">
+
+			   	 <div class="box box-circle-category">
+			   	 	<div class="header"><div class="tr"><div class="tc"></div></div></div>
+			   	 	<div class="content">
+			   	 		<h3 class="title">Thư mục</h3>
+               		    <ul>
+               			<li><a href="#">Sách TMĐT căn bản(4)</a></li>
+               			<li><a href="#">Sách Marketing căn bản(3)</a></li>
+               			<li class="active"><a href="#" >Sách Thiết kế và triển khai website(2)</a></li>
+               			<li><a href="#">Sách quản trị nhân sự(2)</a></li>
+               			<li><a href="#">Sách Hệ thống thông tin(10)</a></li>
+               			<li><a href="#">Sách Logistics(7)</a></li>
+               			<li><a href="#">Sách Quản trị dự án(4)</a></li>
+               			<li><a href="#">Sách Nghiên cứu khoa học(3)</a></li>
+               			<li><a href="#">Sách Pháp luật đại cương(4)</a></li>
+               			<li><a href="#">Sách Tin học đại cương(5)</a></li>
+               			
+               			
+               			
+
+
+               		</ul>
+			   	 		
+
+
+			   	 	</div>
+			   	 	<div class="footer"><div class="br"><div class="bc"></div></div></div>
+
+			     </div>
+
+			     </div>
+
+                                      <!--====================================== RIGHT ===========================-->       
+
+			   <div class="right">
+			   	<div class="slide"><img src="file:///C:/Users/Hao%20Phi/Desktop/diem%20san%20dh%20thuong%20mai1.jpg" alt="search"class="img"></div>
+			   </div>
+
     <div id="wrapper">
         <div class="title">Manage User</div>
         <div class="list">
