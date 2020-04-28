@@ -79,12 +79,17 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="filecss1.css">
+		<link rel="stylesheet" type="text/css" href="filecss2.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>PHP CRUD</title>
     <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
     <script src="js/my-js.js"></script>
 </head>
 
 <body>
+   
+
     <div id="wrapper">
         <div class="title">Manage User</div>
         <div class="list">
